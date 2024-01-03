@@ -174,9 +174,9 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-weight: 900;
-		line-height: 1.5;
-		letter-spacing: 0.075em;
+		font-weight: 800;
+		line-height: 1.;
+		letter-spacing: 0.055em;
 		text-transform: uppercase;
 		margin: 0 0 1rem 0;
 	}
@@ -3315,8 +3315,22 @@ input, select, textarea {
 
 		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
 			color: #ffffff;
+			text-shadow: 5px 5px 5px rgba(0, 0, 0);
 		}
 
+		#welcome{
+			font-style: italic;
+			font-weight: bold;
+			color: #ffffff;
+			text-shadow: 5px 5px 5px rgba(0, 0, 0);
+		}
+		
+		#counter-number{
+			font-style: italic;
+			font-weight: bolder;
+			color: #ffffff;
+			text-shadow: 5px 5px 5px rgba(0, 0, 0);
+		}
 		#intro blockquote {
 			border-left-color: #ffffff;
 		}
@@ -3607,6 +3621,9 @@ input, select, textarea {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+		/* Round only the bottom corners */
+		border-top-left-radius: 5px; /* Adjust the value based on your preference */
+		border-top-right-radius: 5px; /* Adjust the value based on your preference */
 	}
 
 		#nav ul.divided li {
