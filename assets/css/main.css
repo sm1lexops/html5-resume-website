@@ -2580,14 +2580,15 @@ input, select, textarea {
 
 		.image img {
 			display: block;
+			border-radius: 1%;
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 50%;
 		}
 
 			.image.left img, .image.right img {
-				width: 60%;
+				width: 50%;
 			}
 
 		.image.left {
@@ -2684,6 +2685,7 @@ input, select, textarea {
 			justify-content: center;
 			width: 100%;
 			margin-left: 0;
+			padding-top: 2em;
 		}
 
 			ul.actions.special li:first-child {
@@ -3315,7 +3317,7 @@ input, select, textarea {
 
 		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
 			color: #ffffff;
-			text-shadow: 5px 5px 5px rgba(0, 0, 0);
+			text-shadow: 2px 2px 5px rgba(0, 0, 0);
 		}
 
 		#welcome{
@@ -4226,7 +4228,7 @@ input, select, textarea {
 
 				#footer > section.split > section {
 					padding: 3rem 4rem 1rem 4rem ;
-					border-top: solid 2px #e2e2e2;
+					border-top: solid 9px #e2e2e2;
 				}
 
 					#footer > section.split > section:first-child {
@@ -4391,7 +4393,7 @@ input, select, textarea {
 	#copyright {
 		color: #ffffff;
 		position: relative;
-		color: rgba(255, 255, 255, 0.25);
+		color: rgba(255, 255, 255, 0.342);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
