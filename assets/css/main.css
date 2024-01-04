@@ -2593,7 +2593,7 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			margin: 0 2rem 2rem 0;
+			margin: 0 1rem 1rem 0;
 			top: 0.75rem;
 		}
 
@@ -2952,7 +2952,7 @@ input, select, textarea {
 					display: block;
 					position: absolute;
 					top: 50%;
-					width: calc(50% - 6rem);
+					width: calc(50% - 11rem);
 					border-top: solid 2px;
 				}
 
@@ -3325,6 +3325,13 @@ input, select, textarea {
 			font-weight: bold;
 			color: #ffffff;
 			text-shadow: 5px 5px 5px rgba(0, 0, 0);
+
+		}
+#welcome{
+			font-style: italic;
+			font-weight: bold;
+			color: #ffffff;
+			text-shadow: 5px 5px 5px rgba(0, 0, 0);
 		}
 		.emphasis {
 			color: red; /* Adjust the color as needed */
@@ -3570,10 +3577,10 @@ input, select, textarea {
 			pointer-events: auto;
 			border-style: solid;
 			border-color: #ffffff;
-			border-width: 5px !important;
+			border-width: 4px !important;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			font-size: 2.25rem;
-			font-weight: 900;
+			font-size: 1.5rem;
+			font-weight: 800;
 			letter-spacing: 0.075em;
 			line-height: 1;
 			padding: 1rem 1.75rem;
