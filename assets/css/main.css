@@ -3327,12 +3327,14 @@ input, select, textarea {
 			text-shadow: 5px 5px 5px rgba(0, 0, 0);
 
 		}
-#welcome{
+
+		#job{
 			font-style: italic;
 			font-weight: bold;
-			color: #ffffff;
-			text-shadow: 5px 5px 5px rgba(0, 0, 0);
+			color: #fe3e3e;
+			text-shadow: 1px 1px 1px rgb(0, 0, 0);
 		}
+
 		.emphasis {
 			color: red; /* Adjust the color as needed */
 			/*background-color: yellow; /* Adjust the background color as needed */
