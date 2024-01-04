@@ -141,9 +141,9 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		font-family: "Merriweather", Georgia, serif;
-		font-weight: 300;
+		font-weight: 400;
 		font-size: 1rem;
-		line-height: 2.375;
+		line-height: 1.8;
 	}
 
 	a {
@@ -2915,9 +2915,9 @@ input, select, textarea {
 			position: relative;
 		}
 
-		header > p {
+		/*header > p {
 			font-style: italic;
-		}
+		}*/
 
 		header > h1 + p {
 			font-size: 1.1rem;
@@ -3340,11 +3340,11 @@ input, select, textarea {
 
 		}
 
-		#job{
+		.job{
 			font-style: italic;
 			font-weight: bold;
-			color: #fe3e3e;
-			text-shadow: 1px 1px 1px rgb(0, 0, 0);
+			color: #6f7a52;
+			text-shadow: 0px 0px 1px rgb(0, 0, 0);
 		}
 		/* ------------------------------------------------------------------ */
 		/* d. Resume Section
@@ -3382,7 +3382,7 @@ input, select, textarea {
 			border-bottom: 1px solid #E8E8E8;
 		 }
 		 #resume .info {
-			font: 16px/24px 'librebaskerville-italic', serif;
+			font: 18px/24px 'librebaskerville-italic', serif;
 			color: #6E7881;
 			margin-bottom: 18px;
 			margin-top: 9px;
