@@ -3359,6 +3359,8 @@ input, select, textarea {
 			padding-top: 90px;
 			padding-bottom: 72px;
 			overflow: hidden;
+			border-bottom-left-radius: 4px;
+			border-bottom-right-radius: 4px;
 		 }
 
 		 #resume a, #resume a:visited  { color: #ff0000; }
@@ -3717,8 +3719,8 @@ input, select, textarea {
 		max-width: 72rem;
 		z-index: 2;
 		/* Round only the bottom corners */
-		border-top-left-radius: 5px; /* Adjust the value based on your preference */
-		border-top-right-radius: 5px; /* Adjust the value based on your preference */
+		border-top-left-radius: 4px; /* Adjust the value based on your preference */
+		border-top-right-radius: 4px; /* Adjust the value based on your preference */
 	}
 
 		#nav ul.divided li {
@@ -3856,6 +3858,8 @@ input, select, textarea {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+		border-bottom-right-radius: 4px;
+		border-bottom-left-radius: 4px;
 	}
 
 		#main > * {
