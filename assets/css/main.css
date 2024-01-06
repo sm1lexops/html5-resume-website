@@ -328,7 +328,7 @@ input, select, textarea {
 		/* column widths */
 		.row .one         { width: 8.33333%; }
 		.row .two         { width: 16.66667%; }
-		.row .three       { width: 25%; }
+		.row .three       { width: 20%; }
 		.row .four        { width: 33.33333%; }
 		.row .five        { width: 41.66667%; }
 		.row .six         { width: 50%; }
