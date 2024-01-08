@@ -2968,7 +2968,7 @@ input, select, textarea {
 					display: block;
 					position: absolute;
 					top: 50%;
-					width: calc(50% - 11rem);
+					width: calc(50% - 8rem);
 					border-top: solid 2px;
 				}
 
