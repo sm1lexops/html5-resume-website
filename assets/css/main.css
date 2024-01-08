@@ -205,7 +205,7 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1.25rem;
-		margin: 0 0 1.5rem 0;
+		margin: 1rem 0 1.5rem 0;
 	}
 
 	h4 {
@@ -334,7 +334,7 @@ input, select, textarea {
 		.row .six         { width: 50%; }
 		.row .seven       { width: 58.33333%; }
 		.row .eight       { width: 66.66667%; }
-		.row .nine        { width: 75%; }
+		.row .nine        { width: 95%; }
 		.row .ten         { width: 83.33333%; }
 		.row .eleven      { width: 91.66667%; }
 		.row .twelve      { width: 100%; }
@@ -3353,7 +3353,11 @@ input, select, textarea {
 		/* ------------------------------------------------------------------ */
 		/* d. Resume Section
 		/* ------------------------------------------------------------------ */
-
+		*, *:before, *:after {
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
 		#resume {
 			background: #ffffff;
 			padding-top: 90px;
@@ -3372,15 +3376,16 @@ input, select, textarea {
 			letter-spacing: 1px;
 		 }
 		 #resume h1 span {
+			font: 18px/20px "Source Sans Pro", Helvetica, sans-serif;
 			border-bottom: 3px solid #ff0000;
 			padding-bottom: 6px;
 		 }
 		 #resume h3 {
-			font: 25px/30px 'opensans-bold', sans-serif;
+			font: 25px/30px  "Source Sans Pro", Helvetica, sans-serif;
 		 }
 
-		 #resume .header-col { padding-top: 9px; }
-		 #resume .main-col { padding-right: 10%; }
+		 #resume .header-col { padding-top: 15px; }
+		 #resume .main-col { padding-right: 5%; }
 
 		 .education, .work {
 			margin-bottom: 48px;
@@ -3401,9 +3406,22 @@ input, select, textarea {
 			font: 15px/24px 'opensans-regular', sans-serif;
 			margin-top: 6px;
 		 }
+
+		/*#resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+		#resume .main-col { padding-right: 5%; }   
+		#resume .header-col {
+			padding-top: 0;
+			margin-bottom: 48px;
+			text-align: center;
+		}
+		#resume h1 { letter-spacing: 3px; }
+		#resume .main-col { padding-right: 30px; }
+		#resume h3, #resume .info { text-align: center; }
+			
+		.bars { width: 100%; }*/
 		.column, .columns {
 			position: relative;
-			padding: 0 20px;
+			padding: 0 30px;
 			min-height: 1px;
 			float: left;
 		} 
@@ -3541,6 +3559,7 @@ input, select, textarea {
 				transform: translateY(4rem);
 				opacity: 0;
 			}
+
 
 		@media screen and (max-width: 980px) {
 
