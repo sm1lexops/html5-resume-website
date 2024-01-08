@@ -205,7 +205,7 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1.25rem;
-		margin: 1rem 0 1.5rem 0;
+		margin: 0.6rem 0 1.5rem 0;
 	}
 
 	h4 {
@@ -3285,7 +3285,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 6rem 4rem 8rem 4rem ;
+		padding: 0rem 4rem 8rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3309,7 +3309,7 @@ input, select, textarea {
 		position: relative;
 		cursor: default;
 		text-align: center;
-		z-index: 1;
+		z-index: 0;
 		min-height: 100vh;
 	}
 
@@ -3353,11 +3353,7 @@ input, select, textarea {
 		/* ------------------------------------------------------------------ */
 		/* d. Resume Section
 		/* ------------------------------------------------------------------ */
-		*, *:before, *:after {
-			-moz-box-sizing: border-box;
-			-webkit-box-sizing: border-box;
-			box-sizing: border-box;
-		}
+
 		#resume {
 			background: #ffffff;
 			padding-top: 90px;
@@ -3388,6 +3384,7 @@ input, select, textarea {
 		 #resume .main-col { padding-right: 5%; }
 
 		 .education, .work {
+			padding-left: 0px !important; top: 0px !important; margin-left: 0px !important;
 			margin-bottom: 48px;
 			padding-bottom: 24px;
 			border-bottom: 1px solid #E8E8E8;
@@ -3904,7 +3901,7 @@ input, select, textarea {
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
-				font-size: 4rem;
+				font-size: 3rem;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
 			}
