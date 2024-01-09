@@ -142,7 +142,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		font-family: 'opensans-regular', sans-serif;
 		font-weight: normal;
-		font-size: 17px;
+		font-size: 15px;
 		line-height: 30px;
 		color: #52565a;
 	 
@@ -334,7 +334,7 @@ input, select, textarea {
 		.row .six         { width: 50%; }
 		.row .seven       { width: 58.33333%; }
 		.row .eight       { width: 66.66667%; }
-		.row .nine        { width: 95%; }
+		.row .nine        { width: 100%; }
 		.row .ten         { width: 83.33333%; }
 		.row .eleven      { width: 91.66667%; }
 		.row .twelve      { width: 100%; }
@@ -2600,7 +2600,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 45%;
+			max-width: 40%;
 		}
 
 			.image.left img, .image.right img {
@@ -3353,7 +3353,6 @@ input, select, textarea {
 		/* ------------------------------------------------------------------ */
 		/* d. Resume Section
 		/* ------------------------------------------------------------------ */
-
 		#resume {
 			background: #ffffff;
 			padding-top: 90px;
@@ -3380,12 +3379,12 @@ input, select, textarea {
 			font: 25px/30px  "Source Sans Pro", Helvetica, sans-serif;
 		 }
 
-		 #resume .header-col { padding-top: 15px; }
+		 #resume .header-col { padding-top: 15px; text-align: center; }
 		 #resume .main-col { padding-right: 5%; }
 
 		 .education, .work {
 			padding-left: 0px !important; top: 0px !important; margin-left: 0px !important;
-			margin-bottom: 48px;
+			margin-bottom: 28px;
 			padding-bottom: 24px;
 			border-bottom: 1px solid #E8E8E8;
 		 }
@@ -3418,9 +3417,9 @@ input, select, textarea {
 		.bars { width: 100%; }*/
 		.column, .columns {
 			position: relative;
-			padding: 0 30px;
+			padding: 0 10px;
 			min-height: 1px;
-			float: left;
+			float: inherit;
 		} 
 		.column.centered, .columns.centered  {
 			float: none;
@@ -3879,7 +3878,7 @@ input, select, textarea {
 	}
 
 		#main > * {
-			padding: 4rem 4rem 2rem 4rem ;
+			padding: 2rem 10rem 2rem 12rem ;
 			border-top: solid 2px #eeeeee;
 			margin: 0;
 		}
